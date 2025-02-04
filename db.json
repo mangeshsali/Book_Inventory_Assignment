@@ -1,42 +1,26 @@
 {
-  "posts": [
+  "books": [
     {
-      "id": "1",
-      "title": "a title",
-      "views": 100
+      "id": "5c9e",
+      "title": "400 Days",
+      "author": "Chetan Bhagat",
+      "genre": "Crime",
+      "language": "English",
+      "publishedDate": "2000-12-16",
+      "publisher": "English",
+      "pages": "500",
+      "summary": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores odit laudantium reprehenderit beatae nam nesciunt voluptatem sunt quae dolorum laboriosam deleniti perspiciatis, iure ipsam ipsa, quis, accusantium ullam qui sequi iste incidunt aperiam non. Optio labore sint aliquid fugit hic?\n"
     },
     {
-      "id": "2",
-      "title": "another title",
-      "views": 200
-    }
-  ],
-  "comments": [
-    {
-      "id": "1",
-      "text": "a comment about post 1",
-      "postId": "1"
-    },
-    {
-      "id": "2",
-      "text": "another comment about post 1",
-      "postId": "1"
-    }
-  ],
-  "animal": [
-    {
-      "id": "1",
-      "name": "Dog",
-      "color": "Golden"
-    },
-    {
-      "name": "Tiger",
-      "id": "2"
-    },
-    {
-      "id": "9537",
-      "name": "horse",
-      "color": "black"
+      "id": "5d5a",
+      "title": "She Friend Zone is my Love",
+      "author": "Sudeep Nagarkar",
+      "genre": "Romantic",
+      "language": "English",
+      "publishedDate": "2024-05-01",
+      "publisher": "SN",
+      "pages": "900",
+      "summary": "lorem"
     }
   ]
 }
