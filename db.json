@@ -12,15 +12,37 @@
       "summary": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores odit laudantium reprehenderit beatae nam nesciunt voluptatem sunt quae dolorum laboriosam deleniti perspiciatis, iure ipsam ipsa, quis, accusantium ullam qui sequi iste incidunt aperiam non. Optio labore sint aliquid fugit hic?\n"
     },
     {
-      "id": "5d5a",
-      "title": "She Friend Zone is my Love",
-      "author": "Sudeep Nagarkar",
-      "genre": "Romantic",
+      "id": "c610",
+      "title": "The Girl in Room Number 104",
+      "author": "Chetan Bhagat",
+      "genre": "Crime",
       "language": "English",
-      "publishedDate": "2024-05-01",
-      "publisher": "SN",
-      "pages": "900",
-      "summary": "lorem"
+      "publishedDate": "2000-12-16",
+      "publisher": "Chetan",
+      "pages": "400",
+      "summary": "Dolores odit laudantium reprehenderit beatae nam nesciunt voluptatem sunt quae dolorum laboriosam deleniti perspiciatis, iure ipsam ipsa, quis, accusantium ullam qui sequi iste incidunt aperiam non. Optio labore sint aliquid fugit hic?"
+    },
+    {
+      "id": "7427",
+      "title": "Wings of Fire",
+      "author": "Dr. A.P.J. Abdul Kalam and Arun Tiwari",
+      "genre": "Autobiography, Inspirational, Motivational",
+      "language": "English",
+      "publishedDate": "20102-10-12",
+      "publisher": "Universities Press",
+      "pages": "180",
+      "summary": "\"Wings of Fire\" is the autobiography of Dr. A.P.J. Abdul Kalam, the former President of India and an eminent scientist. The book chronicles his early life, education, and journey from a small town in Rameswaram to becoming a key figure in India's space and missile programs."
+    },
+    {
+      "id": "63c4",
+      "title": "The Immortals of Meluha",
+      "author": " Amish Tripathi",
+      "genre": "Mythological Fiction",
+      "language": "English",
+      "publishedDate": "2020-02-10",
+      "publisher": "Westland Press",
+      "pages": "2010",
+      "summary": "\"The Immortals of Meluha\" is the first book in the Shiva Trilogy, a modern retelling of Indian mythology. The story is set in 1900 BCE in the land of Meluha, where the great emperor Daksha rules. The people of Meluha believe in the legend of a savior, Neelkanth, who will protect them from their enemies, the Chandravanshis."
     }
   ]
 }

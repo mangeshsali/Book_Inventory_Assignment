@@ -1,8 +1,27 @@
-# React + Vite
+# Instructions to Run the Web App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## JSON Server for Mock API
 
-Currently, two official plugins are available:
+To set up and run the mock API, follow these steps:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Install and Start `json-server`
+
+Run the following command in your terminal:
+
+```sh
+npx json-server db.json
+```
+
+### 2️ Handling CORS Errors
+
+If you encounter CORS errors, use one of the following solutions:
+
+- **Option 1 (Recommended):** Start `json-server` with CORS middleware:
+
+  ```sh
+  npx json-server --watch db.json --port 5000 --middlewares cors
+  ```
+
+- **Option 2:** Install and enable a **CORS extension** in your browser.
+
+Now your mock API is ready to use!
