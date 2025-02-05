@@ -6,6 +6,7 @@ import CreateBook from "../Component/CreateBook";
 import axios from "axios";
 import toast from "react-hot-toast";
 import { MdCreate } from "react-icons/md";
+import Loader from "../Component/Loader";
 
 const Home = () => {
   const [AllBookData, setAllBookData] = useState([]);
@@ -65,7 +66,7 @@ const Home = () => {
 
   console.log("FO", formData);
   return loading ? (
-    <p>Loading...</p>
+    <Loader />
   ) : (
     <div className=" w-full flex justify-center flex-col items-center">
       <div className="  lg:w-[70%] flex flex-col gap-4 border border-black rounded-lg shadow p-8">

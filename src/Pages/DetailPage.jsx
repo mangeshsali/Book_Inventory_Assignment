@@ -3,6 +3,7 @@ import { useNavigate, useParams } from "react-router";
 import { BOOKAPI } from "../Config/API";
 import axios from "axios";
 import { MdOutlineKeyboardBackspace } from "react-icons/md";
+import Loader from "../Component/Loader";
 
 const DetailPage = () => {
   const [bookDetails, setBookDetails] = useState(null);
@@ -29,7 +30,7 @@ const DetailPage = () => {
     bookDetails || {};
 
   return loading ? (
-    <p>Loading</p>
+    <Loader />
   ) : (
     <div className="lg:w-[40%]">
       <div className="mb-8">
