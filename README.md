@@ -12,7 +12,7 @@ Run the following command in your terminal:
 npx json-server db.json
 ```
 
-### 2️ Handling CORS Errors
+###  Handling CORS Errors
 
 If you encounter CORS errors, use one of the following solutions:
 
